@@ -1,3 +1,4 @@
+/**switch */
 #include <stdio.h.>
 
 int main(void)
@@ -21,4 +22,5 @@ int main(void)
 				printf("we do not know you");
 	}
 		return 0;
+
 }
