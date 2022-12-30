@@ -6,5 +6,6 @@ int main(void){
 	{
 		printf("i love rubber duck debugging style\n");
 	}
-	return (0);
+	return (0); 
+	
 }
