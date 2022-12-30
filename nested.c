@@ -1,3 +1,4 @@
+/**nested loop practice*/
 #include <stdio.h>
 /**
  * main - main function
