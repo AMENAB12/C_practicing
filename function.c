@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-int g = 20;
+void addNumber(int number, int number2)
+{
+	int addNumber = number + number2;
+
+	printf("The addition  of %d and %d is %d,", number, number2, addNumber);
+}
 
 int main(void)
 {
-	int a = 10;
-	int b = 15;
-	 g = 50;
+	addNumber(8, 9);
 
-	printf("Variable a = %d, b = %d, g = %d\n", a, b, g);
 	
 	return (0);
 }
