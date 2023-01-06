@@ -10,7 +10,7 @@ int x = 5;
 if (x < 5){
 	printf("I am always equal");
 } else {
-	printf("I am not equal");
+	printf("I am not equual");
 }
 return 0;
 
