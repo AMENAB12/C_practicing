@@ -24,3 +24,27 @@ int main(void)
 	return (0);
 
 }
+#include <stdio.h>
+
+int main() {
+    int n1,n2,n3;
+    
+    // Write C code here
+    printf("enter the number value: ");
+    scanf("%d%d%d", &n1, &n2, &n3);
+    
+    if (n1 > n2){
+        if (n1 > n3){
+            printf("%d is greate " , n1);
+        } else {
+            printf("%d is greater", n3);
+        } 
+        } else {
+        if (n2 > n3){
+            printf("%d is greaterd " , n2);
+        } else {
+            printf("%d is greaters", n3);
+        }
+    return 0;
+}
+}
